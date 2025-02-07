@@ -1,0 +1,21 @@
+{
+    "name": "@codecrafters/build-your-own-http-server",
+    "version": "1.0.0",
+    "description": "Build your own HTTP-Server challenge, from CodeCrafters",
+    "main": "main.js",
+    "scripts": {
+        "dev": "nodemon app/main.js",
+        "dev:dir": "node app/main.js --directory"
+    },
+    "keywords": [
+        "build-your-own-x"
+    ],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "nodemon": "^3.1.0"
+    },
+    "dependencies": {
+        "path-to-regexp": "^6.2.2"
+    }
+}
